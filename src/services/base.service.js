@@ -6,11 +6,8 @@ class BaseService {
   }
 
   // ==============================
-
   // GET ALL
-
   // ==============================
-
   async findAll(page = 1, limit = 10) {
     const start = (page - 1) * limit;
 
@@ -22,21 +19,15 @@ class BaseService {
 
     return {
       total,
-
       page,
-
       limit,
-
       data,
     };
   }
 
   // ==============================
-
   // GET ONE
-
   // ==============================
-
   async find(id) {
     const item = await this.model.findById(id);
 
@@ -48,11 +39,8 @@ class BaseService {
   }
 
   // ==============================
-
   // CREATE
-
   // ==============================
-
   async create(data) {
     if (!data) {
       return null;
@@ -62,11 +50,8 @@ class BaseService {
   }
 
   // ==============================
-
   // UPDATE
-
   // ==============================
-
   async update(id, data) {
     const item = await this.model.findByIdAndUpdate(
       id,
@@ -84,18 +69,14 @@ class BaseService {
   }
 
   // ==============================
-
   // DELETE
-
   // ==============================
-
   async remove(id) {
     const item = await this.model.findByIdAndDelete(id);
 
     if (!item) {
       return null;
     }
-
     return true;
   }
 }

@@ -18,6 +18,8 @@ app.get("/", (req, res) => {
     endpoints: {
       users: "/users",
       products: "/products",
+      characters: "/characters",
+      employees: "/employees",
     },
   });
 });
