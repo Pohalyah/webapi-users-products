@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "country": "United States"
+    },
+    {
+        "id": 2,
+        "name": "Maria Garcia",
+        "country": "Spain"
+    },
+    {
+        "id": 3,
+        "name": "David Kim",
+        "country": "South Korea"
+    },
+    {
+        "id": 4,
+        "name": "Marta Johnson",
+        "country": "Canada"
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "api-user-product",
+  "version": "1.0.0",
+  "description": "Web API de gestion d'utilisateurs et de produits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Adrien & Josua",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "emoji-helicopter": "^1.3.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
